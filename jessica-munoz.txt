@@ -9,47 +9,109 @@ https://codepen.io/charlieclarkadams3/pen/oNXENaY?editors=1100
     3. What is an attribute and where do we put it? 
         Attributes provide additional information to html elements. Attributes go in the opening tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
-        h1's
+        h1's are used for the primary heading, meaning the heading that has the most significance. H1's should only b used once. 
     5. Name two tags that have required attributes
+        anchor tags and image tags
     6. What do we put in the head of our HTML document? 
-    7. What is an id? 
+        meta data 
+     7. What is an id? 
+        An id is an attribute that adds specificity to html elements that can then be used to add styling in css.
     8. What elements can I add an id to? 
+        id's can be added to just about any element, however id's can only be used once.
     9. How many times can I use the same id on a page? 
+        Once.
     10. What is a class? 
+         A class is also an attribute that add specificity to multiple elements.
     11. What elements can I add a class to? 
+        A classes can be added to any element whether it be semantic or non-semantic.
     12. How many times can I use the same class on a page? 
+        Multiple times.
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
+        Use an anchor tag with the attribute of an href.
+    14. What is the alt attribute used for?
+         The alt  attribute is used to provide a description (alternative information) for an image tag.
     15. How do I reference an id?
+        Use the #(pound) character.
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
+        The div tag defines a division between content. The div blocks out space, whereas a section tag sections off specific areas.
+    17. What is CSS used for?
+            CSS is used to add stye to html content. 
     18. How to we select an element? Example - every h2 on the page
+        h2{
+
+        }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+            Classes can be used multiple times a div tag that is used more than once. Whereas an id can only be used once, for like an h1 tag.
     20. How do we select classes in CSS?
+        Use .(period) followed by the name of the class.
     21. How do we select a p element with a single class of “human””?
+        .human p{}
     22. What is a parent child selector? When would this be useful? 
+        ("parent > child"). 
     23. How do you select all links within a div with the class of sidebar?
+        You use the ":link" selector.
     24. What is a pseudo selector?
+        
     25. What do we use the change the spacing between lines?
+        You use the line-height element.
     26. What do we use to change the spacing between letters?
+        Use "letter-spacing".
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase, lowercase, capitalize.
     28. How do I add a 1px border around my div that is dotted and black?
+        div{
+            border: 1px black dotted;
+        }
     29. How do I select everything on the page? 
+     Use the universal selector *.
     30. How do I write a comment in CSS?
+      Write the comment, highlight and hit "command" + "/" this allows the comment to be greyed out.
     31. How do I find out what file I am in, when I am using the command line? 
+        Enter "ls".
     32. Using the command line - how do I see a list of files/folders in my current folder?
+         Enter "pwd".
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        Enter "rm".
     34. Why should I use version control? 
+        Version control will keep all copies of a project old and new copies.
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+        Every 20 minutes or whenever major changes are made.
+    36. What is the command we would use to push our repo up to github?
+        git push 
+
     37. Walk me through Lambda's git flow. 
+        1. fork 
+        2. add collaborator
+        3. clone repo, copy url
+        4. Past url in the terminal proceeding the command "git clone"
+        5. cd into the repo
+        6. branch the repo use command: git checkout -b "firstname-lastname".
+        7. To add  changes use commands:git status
+                git add . 
+                git commit -m "type something here"
+                git push
+        8. To push changes into github:
+            git push -u branchname
+        9. submit a pr (pull request)
+        10. click on the Branch: master button
+        11. use dropdown to select your name branch, click on New pull request.
+
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        inline elements do not start on new lines and only take up the width needed. Block 
+        elements start new line and take up the entire width of a page.
     2. What happens when an element is positioned absolutely? 
+        This means the element has a fixed position. 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
 
-    testing
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+            display block: divs, h1-h6 headers, footers. Inline: <a>, <image> 
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        The box model is the model that is used for spacing elements by way of; margin, padding, border. Use the inspect tool to help with spacing. 
+
+  
+    
+
+    
