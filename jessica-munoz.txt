@@ -9,6 +9,7 @@ https://codepen.io/charlieclarkadams3/pen/oNXENaY?editors=1100
     3. What is an attribute and where do we put it? 
         Attributes provide additional information to html elements. Attributes go in the opening tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
+        h1's
     5. Name two tags that have required attributes
     6. What do we put in the head of our HTML document? 
     7. What is an id? 
@@ -50,3 +51,5 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
+
+    testing
