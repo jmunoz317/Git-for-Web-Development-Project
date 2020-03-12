@@ -1,4 +1,4 @@
-https://codepen.io/charlieclarkadams3/pen/oNXENaY?editors=1100
+https://codepen.io/charlieclarkadams3/pen/YzXezRV
 
 
 
@@ -51,7 +51,7 @@ https://codepen.io/charlieclarkadams3/pen/oNXENaY?editors=1100
     23. How do you select all links within a div with the class of sidebar?
         You use the ":link" selector.
     24. What is a pseudo selector?
-        
+            It is a style element that defines a special state of an element. I believe something like hover could be one
     25. What do we use the change the spacing between lines?
         You use the line-height element.
     26. What do we use to change the spacing between letters?
@@ -105,11 +105,12 @@ Stretch Questions
     2. What happens when an element is positioned absolutely? 
         This means the element has a fixed position. 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        box-sizing: border box
 
     4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
             display block: divs, h1-h6 headers, footers. Inline: <a>, <image> 
     5. In your own words, explain the box model. What is the fix for the box model? 
-        The box model is the model that is used for spacing elements by way of; margin, padding, border. Use the inspect tool to help with spacing. 
+        The box model is the model that is used for styling and spacing elements in css. The box models helps with position by way of; margin, padding, border. Use the inspect tool to help with spacing. 
 
   
     
